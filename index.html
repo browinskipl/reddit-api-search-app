@@ -12,9 +12,38 @@
     <title>Reddit API search</title>
   </head>
   <body>
-    
-
     <div class="container">
+      <form id="form">
+        <div class="form-group">
+          <label for="phrase">Phrase:</label>
+          <input type="text" class="form-control" id="phrase" placeholder="Enter phrase" required>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="valueRadio1" name="valueRadio" class="custom-control-input" value="25" checked>
+          <label class="custom-control-label" for="valueRadio1">25</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="valueRadio2" name="valueRadio" class="custom-control-input" value="50">
+          <label class="custom-control-label" for="valueRadio2">50</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="valueRadio3" name="valueRadio" class="custom-control-input" value="100">
+          <label class="custom-control-label" for="valueRadio3">100</label>
+        </div>
+
+        <div class="custom-control custom-radio">
+          <input type="radio" id="sortRadio1" name="sortRadio" class="custom-control-input" value="new" checked>
+          <label class="custom-control-label" for="sortRadio1">New</label>
+        </div>
+        <div class="custom-control custom-radio">
+          <input type="radio" id="sortRadio2" name="sortRadio" class="custom-control-input" value="relevance">
+          <label class="custom-control-label" for="sortRadio2">Relevance</label>
+        </div>
+
+
+        <button type="submit" class="btn btn-primary">Search</button>
+      </form>
+      <div class="cards-list"></div>
 
     </div>
 

@@ -5,4 +5,4 @@ By doing this I would like to show that I can work using the below technologies:
 -CSS
 -BOOTSTRAP
 -JavaScript
--REST API
+-fetch API

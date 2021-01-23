@@ -2,3 +2,21 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+.btn {
+	width: 100%;
+}
+
+.custom-control {
+	display: inline;
+}
+
+.card {
+	display:inline-block;
+	width: 18rem;
+	margin: 10px;
+}
+
+.cards-list {
+	text-align: center;
+}
